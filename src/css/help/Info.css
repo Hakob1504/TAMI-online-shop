@@ -1,0 +1,22 @@
+.info_main{
+    display: flex;
+    gap: 30px;
+}
+.category_info_div{
+    width: 400px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 426px) {
+    .category_info_div{
+        width: 200px;
+    }
+    .category_info_div h2{
+        font-size: 16px;
+    }
+    .category_info_div p{
+        font-size: 12px;
+    }
+}

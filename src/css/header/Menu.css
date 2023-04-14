@@ -1,0 +1,34 @@
+.menu_div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.menu_div .logo{
+    font-size: 50px;
+    margin: auto 0;
+}
+.gender_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.gender_ul .gender_link {
+font-weight: 400;
+}
+.categories_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.categories_ul .categories_link {
+    font-weight: 200;
+}
+@media screen and (max-width: 300px) {
+    .gender_ul .gender_link{
+        font-size: 12px;
+    }
+    .categories_ul .categories_link{
+        font-size: 12px;
+    }
+}

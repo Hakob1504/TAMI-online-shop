@@ -1,0 +1,57 @@
+.newsletter_main{
+    gap: 20px;
+}
+input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+.subscribtion_form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+label{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+label p{
+    font-size: 14px;
+}
+.select_section_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.select_section_div ul{
+    display: flex;
+    padding: 0;
+}
+.select_section_div ul li label{
+    display: flex;
+    gap: 10px;
+}
+.subscribtion_btns_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media  screen and (max-width: 300px) {
+    .subscribtion_form{
+        width: 180px;
+    }
+    .title_div h2{
+        font-size: 20px;
+    }
+    .title_div p{ 
+        font-size: 15px;
+    }
+    .select_section_div ul{
+        flex-direction: column;
+    }
+}

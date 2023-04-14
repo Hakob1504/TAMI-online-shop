@@ -1,0 +1,32 @@
+.sign_main, .register_main{
+    display: flex;
+    gap: 40px;
+}
+.sign_form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sign_form .input_div input {
+    width: 300px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sign_form label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.input_div p{
+    color: red;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 320px) {
+    .sign_form .input_div input{
+        width: 200px;
+    }
+}

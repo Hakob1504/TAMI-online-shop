@@ -1,0 +1,43 @@
+.back_btn_div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.help_main{
+    display: flex;
+    flex-direction: column;
+}
+.help_inner_div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.help_categories {
+    width: 100%;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.help_category_div{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.help_category_div img{
+    width: 50px;
+}
+.help_category_div h3 {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 426px) {
+    .help_categories{
+        grid-template-columns: auto auto;
+    }
+}
